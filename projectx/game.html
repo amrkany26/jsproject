@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS PROJECT | OUR NEW GAME</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">| HOME |</a></li>
+                <li><a href="sign.html">| SIGN IN |</a></li>
+                <li><a href="store.html">| STORE |</a></li>
+                <li><a href="game.html">| OUR NEW GAME |</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">OUR NEW GAME</h1>
+    </header>
+    <center> <h2 class="section-header">Rock , Paper , Scissors</h2></center>
+  <div class="selections">
+    <button class="selection" data-selection="rock">✊</button>
+    <button class="selection" data-selection="paper">✋</button>
+    <button class="selection" data-selection="scissors">✌</button>
+  </div>
+  <div class="results">
+    <div>
+      You
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+      Computer
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+    <!-- <div class="result-selection winner">✊</div>
+    <div class="result-selection">✌</div> -->
+  </div>
+</body>
+</html>

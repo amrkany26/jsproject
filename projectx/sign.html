@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS PROJECT | SIGN IN</title>
+        <meta name="description" content="Shopping cart">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">| HOME |</a></li>
+                    <li><a href="sign.html">| SIGN IN |</a></li>
+                    <li><a href="store.html">| STORE |</a></li>
+                    <li><a href="game.html">| OUR NEW GAME |</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">SIGN IN</h1>
+        </header>
+        <center>  <h2 class="section-header">WELCOME BACK</h2></center>
+        <form class="signbox" >
+            <label for="firstname" class="label">FIRST NAME</label>
+            <br>
+            <input type="text" name="firstname" id="firstname" class="input">
+            <br>
+            <label for="lastname" class="label">LAST NAME</label>
+            <br>
+            <input type="text" name="lastname" id="lastname" class="input">
+            <br>
+            <label for="email" class="label" >E-MAIL</label>
+            <br>
+            <input type="email" name="email" id="email" class="input">
+            <br>
+            <label for="password" class="label">PASSWORD</label>
+            <br>
+            <input type="password" name="password" id="password" class="input">
+            <br>
+            <br>
+            <button type="submit" class="save-button" onclick="saveEmailAndPassword(), sayHi()">SIGN IN </button>
+        </form>
+        
+    
+</body>
+</html>

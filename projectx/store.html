@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS PROJECT | STORE</title>
+        <meta name="description" content="Shopping cart">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">| HOME |</a></li>
+                    <li><a href="sign.html">| SIGN IN |</a></li>
+                    <li><a href="store.html">| STORE |</a></li>
+                    <li><a href="game.html">| OUR NEW GAME |</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">STORE</h1>
+        </header>
+        
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">SHREKFIELD 1</span>
+                    <img class="shop-item-image" src="http://images7.memedroid.com/images/UPLOADED769/5b390e5e78884.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$119.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">HALO : Holy Combat</span>
+                    <img class="shop-item-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d633006a-035d-4e70-bc58-85a20b222486/drjfpg-3d91f00d-2d44-421a-85e3-b36900f3b080.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MzMwMDZhLTAzNWQtNGU3MC1iYzU4LTg1YTIwYjIyMjQ4NlwvZHJqZnBnLTNkOTFmMDBkLTJkNDQtNDIxYS04NWUzLWIzNjkwMGYzYjA4MC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Drv7kVC6PhsAqhuPal4HljTmjonn3orlOyy_u6na7Dk">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$109.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">GEARS OF WARIO</span>
+                    <img class="shop-item-image" src="https://imgix.ranker.com/user_node_img/50058/1001143025/original/g-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$116.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="http://images7.memedroid.com/images/UPLOADED769/5b390e5e78884.jpeg" width="100" height="100">
+                        <span class="cart-item-title">SHREKFIELD 1</span>
+                    </div>
+                    <span class="cart-price cart-column">$119.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="0">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d633006a-035d-4e70-bc58-85a20b222486/drjfpg-3d91f00d-2d44-421a-85e3-b36900f3b080.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q2MzMwMDZhLTAzNWQtNGU3MC1iYzU4LTg1YTIwYjIyMjQ4NlwvZHJqZnBnLTNkOTFmMDBkLTJkNDQtNDIxYS04NWUzLWIzNjkwMGYzYjA4MC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Drv7kVC6PhsAqhuPal4HljTmjonn3orlOyy_u6na7Dk" width="100" height="100">
+                        <span class="cart-item-title">HALO : Holy Combat</span>
+                    </div>
+                    <span class="cart-price cart-column">$109.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="0">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="https://imgix.ranker.com/user_node_img/50058/1001143025/original/g-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375" width="100" height="100">
+                        <span class="cart-item-title">GEARS OF WARIO</span>
+                    </div>
+                    <span class="cart-price cart-column">$106.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="0">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0.00</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <script type="text/javascript" src="./store.js"></script>
+    </body>
+</html>
